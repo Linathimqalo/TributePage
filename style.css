@@ -1,0 +1,169 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+nav{
+  padding: 15px;
+  background-color: black;
+  font-size: 20px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+}
+
+nav ul li a{
+  color: white;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.jolly{
+  height: 80px;
+  margin: 5vw;
+  position: absolute;
+  margin-bottom: -22px;
+  width: 85px;
+	margin-top: -40px;
+}
+
+.jollyroger{
+  height: 80px;
+  margin-left: 85vw;
+  position: relative;
+  margin-bottom: -22px;
+  width: 85px;
+	margin-top: -40px;
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+
+.heading p{
+  padding: 0px 15px 0px 15px;
+}
+
+.heading h1{
+	margin-top: -55px;
+}
+
+.strawhatcrew p:hover{
+  transform: scale(1.1);
+}
+
+.heading{
+	width: 100vw;
+	height: 100vh;
+  background-image: url("Images/Straw-Hat-Pirates-Feature-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading::after{
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.heading *{
+  position: relative;
+  z-index: 1;
+}
+
+.crew{
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+img{
+  width: 300px;
+  height: 400px;
+  align-content: center;
+  max-width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  align-content: center;
+  justify-content: center;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 18px;
+}
+
+.luffy{
+	padding-top: 15px;
+	max-width: 100%;
+	display: block;
+	width: 100vw; 
+	height: auto;
+	background-size: cover;
+	background-position: center center;
+}
+
+.strawhatcrew figcaption{
+  margin-top: 12px;
+}
+
+.strawhatcrew p {
+  max-width: 250px;
+  font-size: 15px;
+  word-wrap: break-word;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+}
+
+.strawhatcrew a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover{
+  color: gold;
+}
+
+.strawhatcrew{
+  max-width: 250px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.strawhatcrew img{
+  max-width: 100%;
+  transition: transform .2s ease;
+}
+
+.strawhatcrew img:hover{
+  max-width: 100%;
+  transform: scale(1.12);
+}
