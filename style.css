@@ -141,6 +141,12 @@ figcaption{
   display: block;
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 .strawhatcrew a{
   text-decoration: none;
   color: white;
